@@ -29,7 +29,7 @@ function Scatter({ rows, motifs }: { rows: Row[]; motifs: string[] }) {
   const maxX = Math.max(...rows.map((row) => row.toggles), 1);
   return (
     <figure>
-      <svg viewBox={`0 0 ${width} ${height}`} className="w-full border border-rule bg-paper" role="img" aria-label="Density against edit fraction">
+      <svg viewBox={`0 0 ${width} ${height}`} className="w-full border border bg-card" role="img" aria-label="Density against edit fraction">
         {rows.map((row, index) => {
           const x = pad + (row.toggles / maxX) * (width - pad - 12);
           const y = height - pad - (row.density / maxD) * (height - pad - 16);
@@ -55,7 +55,7 @@ function Means({ rows, motifs }: { rows: Row[]; motifs: string[] }) {
   const maxT = Math.max(...rows.map((row) => row.toggles), 1);
   return (
     <figure>
-      <svg viewBox={`0 0 ${width} ${height}`} className="w-full border border-rule bg-paper" role="img" aria-label="Mean density drop against pairs toggled">
+      <svg viewBox={`0 0 ${width} ${height}`} className="w-full border border bg-card" role="img" aria-label="Mean density drop against pairs toggled">
         {motifs.map((motif) => {
           const budgets = [...new Set(rows.filter((row) => row.motif === motif).map((row) => row.toggles))].sort((a, b) => a - b);
           const path = budgets
@@ -83,7 +83,7 @@ function Means({ rows, motifs }: { rows: Row[]; motifs: string[] }) {
 
 function Legend({ motifs }: { motifs: string[] }) {
   return (
-    <figcaption className="mt-2 flex gap-4 text-xs text-ink/70">
+    <figcaption className="mt-2 flex gap-4 text-xs text-muted-foreground">
       {motifs.map((motif) => (
         <span key={motif}>
           <span className="mr-1 inline-block h-2 w-2" style={{ background: COLORS[motif] ?? "#1c1915" }} />

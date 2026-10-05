@@ -25,7 +25,7 @@ export function OptimiserView() {
   return (
     <div className="grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_20rem]">
       <div>
-        <p className="mb-4 max-w-2xl text-sm leading-6 text-ink/80">
+        <p className="mb-4 max-w-2xl text-sm leading-6 text-muted-foreground">
           The curve is the Theorem 1.6 formula for a complete bipartite host, computed at 81 ratios in [1/2, 1].
           The marked point is the maximum on that grid, not a certified unique maximiser.
         </p>
@@ -34,23 +34,23 @@ export function OptimiserView() {
       <div className="space-y-4">
         <label className="block text-sm">
           Target
-          <select className="mt-1 w-full border border-rule bg-paper px-2 py-1" value={name} onChange={(event) => setName(event.target.value)}>
+          <select className="mt-1 w-full border border bg-card px-2 py-1" value={name} onChange={(event) => setName(event.target.value)}>
             {CASES.map((item) => (
               <option key={item.name}>{item.name}</option>
             ))}
           </select>
         </label>
         <dl className="space-y-2 text-sm">
-          <div className="border border-rule px-3 py-2">
-            <dt className="text-xs uppercase tracking-wide text-ink/60">Best grid ratio</dt>
+          <div className="border border px-3 py-2">
+            <dt className="text-xs uppercase tracking-wide text-muted-foreground">Best grid ratio</dt>
             <dd className="font-serif text-2xl">{best.alpha.toFixed(4)} / {(1 - best.alpha).toFixed(4)}</dd>
           </div>
-          <div className="border border-rule px-3 py-2">
-            <dt className="text-xs uppercase tracking-wide text-ink/60">Objective on the grid</dt>
+          <div className="border border px-3 py-2">
+            <dt className="text-xs uppercase tracking-wide text-muted-foreground">Objective on the grid</dt>
             <dd className="font-serif text-2xl">{best.value.toFixed(6)}</dd>
           </div>
-          <div className="border border-rule px-3 py-2">
-            <dt className="text-xs uppercase tracking-wide text-ink/60">Parts</dt>
+          <div className="border border px-3 py-2">
+            <dt className="text-xs uppercase tracking-wide text-muted-foreground">Parts</dt>
             <dd className="font-serif text-2xl">2</dd>
           </div>
         </dl>
@@ -72,7 +72,7 @@ function Landscape({ samples, bestAlpha }: { samples: { alpha: number; value: nu
     .join(" ");
   const markerX = 32 + ((bestAlpha - 0.5) / 0.5) * (width - 48);
   return (
-    <svg viewBox={`0 0 ${width} ${height}`} className="w-full border border-rule bg-paper" role="img" aria-label="Bipartite inducibility landscape">
+    <svg viewBox={`0 0 ${width} ${height}`} className="w-full border border bg-card" role="img" aria-label="Bipartite inducibility landscape">
       <path d={path} fill="none" stroke="#1c1915" strokeWidth="1.6" />
       <line x1={markerX} y1={16} x2={markerX} y2={height - 28} stroke="#9a3412" strokeDasharray="3 3" />
       <text x={32} y={height - 8} fontSize="12" fill="#1c1915">

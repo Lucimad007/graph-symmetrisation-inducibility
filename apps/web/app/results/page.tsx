@@ -23,12 +23,12 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-2 font-serif text-4xl">Paper results</h1>
-      <p className="mb-6 max-w-3xl text-sm leading-6 text-ink/80">{payload.claim}</p>
+      <p className="mb-6 max-w-3xl text-sm leading-6 text-muted-foreground">{payload.claim}</p>
       <div className="space-y-6">
         {payload.rows.map((row) => (
-          <article key={row.theorem} className="border border-rule p-4">
+          <article key={row.theorem} className="border border p-4">
             <h2 className="font-serif text-2xl">{row.theorem}</h2>
-            <p className="mt-1 text-sm text-ink/70">
+            <p className="mt-1 text-sm text-muted-foreground">
               <a className="underline" href="https://arxiv.org/abs/2012.10731">
                 arXiv:2012.10731
               </a>
@@ -55,7 +55,7 @@ function RatioBar({ ratios, singletonMass }: { ratios: number[]; singletonMass: 
   const pieces = [...ratios.map((value) => ({ value, label: "part" })), { value: singletonMass, label: "singletons" }];
   return (
     <div className="mt-4" aria-label="Part masses">
-      <div className="flex h-8 overflow-hidden border border-rule">
+      <div className="flex h-8 overflow-hidden border border">
         {pieces.filter((piece) => piece.value > 0.001).map((piece, index) => (
           <div
             key={`${piece.label}-${index}`}
@@ -64,7 +64,7 @@ function RatioBar({ ratios, singletonMass }: { ratios: number[]; singletonMass: 
           />
         ))}
       </div>
-      <p className="mt-1 text-xs text-ink/60">Dark blocks are parts. The pale block is singleton mass.</p>
+      <p className="mt-1 text-xs text-muted-foreground">Dark blocks are parts. The pale block is singleton mass.</p>
     </div>
   );
 }
@@ -72,7 +72,7 @@ function RatioBar({ ratios, singletonMass }: { ratios: number[]; singletonMass: 
 function Field({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="text-xs uppercase tracking-wide text-ink/60">{label}</dt>
+      <dt className="text-xs uppercase tracking-wide text-muted-foreground">{label}</dt>
       <dd className="font-serif text-xl">{value}</dd>
     </div>
   );
