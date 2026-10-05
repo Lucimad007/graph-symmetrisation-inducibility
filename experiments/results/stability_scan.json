@@ -1,0 +1,729 @@
+{
+  "n": 10,
+  "samples_per_probability": 40,
+  "seed": 7,
+  "motif": "K22",
+  "density_is": "exact enumeration",
+  "rows": [
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.17777777777777778,
+      "edges": 8
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.009523809523809525,
+      "defect": 0.2222222222222222,
+      "edges": 10
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.13333333333333333,
+      "edges": 6
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.28888888888888886,
+      "edges": 13
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.004761904761904762,
+      "defect": 0.24444444444444444,
+      "edges": 11
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.17777777777777778,
+      "edges": 8
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.014285714285714285,
+      "defect": 0.3333333333333333,
+      "edges": 15
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.044444444444444446,
+      "edges": 2
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.02857142857142857,
+      "defect": 0.3111111111111111,
+      "edges": 14
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.009523809523809525,
+      "defect": 0.35555555555555557,
+      "edges": 16
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.01904761904761905,
+      "defect": 0.3333333333333333,
+      "edges": 15
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.004761904761904762,
+      "defect": 0.24444444444444444,
+      "edges": 11
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.004761904761904762,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.004761904761904762,
+      "defect": 0.2222222222222222,
+      "edges": 10
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.17777777777777778,
+      "edges": 8
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.24444444444444444,
+      "edges": 11
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.004761904761904762,
+      "defect": 0.2222222222222222,
+      "edges": 10
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.26666666666666666,
+      "edges": 12
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.1111111111111111,
+      "edges": 5
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.13333333333333333,
+      "edges": 6
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.17777777777777778,
+      "edges": 8
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.28888888888888886,
+      "edges": 13
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.17777777777777778,
+      "edges": 8
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.15555555555555556,
+      "edges": 7
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.2,
+      "edges": 9
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.009523809523809525,
+      "defect": 0.24444444444444444,
+      "edges": 11
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.0,
+      "defect": 0.1111111111111111,
+      "edges": 5
+    },
+    {
+      "edge_probability": 0.2,
+      "density": 0.004761904761904762,
+      "defect": 0.24444444444444444,
+      "edges": 11
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.0761904761904762,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.02857142857142857,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.01904761904761905,
+      "defect": 0.37777777777777777,
+      "edges": 17
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.04285714285714286,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.04285714285714286,
+      "defect": 0.4222222222222222,
+      "edges": 19
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.0380952380952381,
+      "defect": 0.5777777777777777,
+      "edges": 26
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.014285714285714285,
+      "defect": 0.4222222222222222,
+      "edges": 19
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.03333333333333333,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.05238095238095238,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.06190476190476191,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.047619047619047616,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.08095238095238096,
+      "defect": 0.5111111111111111,
+      "edges": 23
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.0380952380952381,
+      "defect": 0.5111111111111111,
+      "edges": 23
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.17142857142857143,
+      "defect": 0.5111111111111111,
+      "edges": 23
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.047619047619047616,
+      "defect": 0.4,
+      "edges": 18
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.06190476190476191,
+      "defect": 0.4222222222222222,
+      "edges": 19
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.02857142857142857,
+      "defect": 0.4222222222222222,
+      "edges": 19
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.047619047619047616,
+      "defect": 0.4444444444444444,
+      "edges": 20
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.06666666666666667,
+      "defect": 0.6222222222222222,
+      "edges": 28
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.14285714285714285,
+      "defect": 0.5333333333333333,
+      "edges": 24
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.023809523809523808,
+      "defect": 0.4444444444444444,
+      "edges": 20
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.04285714285714286,
+      "defect": 0.4888888888888889,
+      "edges": 22
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.03333333333333333,
+      "defect": 0.5111111111111111,
+      "edges": 23
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.1,
+      "defect": 0.5333333333333333,
+      "edges": 24
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.05714285714285714,
+      "defect": 0.4888888888888889,
+      "edges": 22
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.07142857142857142,
+      "defect": 0.4888888888888889,
+      "edges": 22
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.0761904761904762,
+      "defect": 0.4666666666666667,
+      "edges": 21
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.04285714285714286,
+      "defect": 0.5333333333333333,
+      "edges": 24
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.09047619047619047,
+      "defect": 0.5555555555555556,
+      "edges": 25
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.03333333333333333,
+      "defect": 0.4888888888888889,
+      "edges": 22
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.08571428571428572,
+      "defect": 0.6,
+      "edges": 27
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.02857142857142857,
+      "defect": 0.4222222222222222,
+      "edges": 19
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.03333333333333333,
+      "defect": 0.5555555555555556,
+      "edges": 25
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.05238095238095238,
+      "defect": 0.6222222222222222,
+      "edges": 28
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.009523809523809525,
+      "defect": 0.3333333333333333,
+      "edges": 15
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.014285714285714285,
+      "defect": 0.37777777777777777,
+      "edges": 17
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.009523809523809525,
+      "defect": 0.4,
+      "edges": 18
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.06666666666666667,
+      "defect": 0.4888888888888889,
+      "edges": 22
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.10952380952380952,
+      "defect": 0.6666666666666666,
+      "edges": 30
+    },
+    {
+      "edge_probability": 0.5,
+      "density": 0.04285714285714286,
+      "defect": 0.5111111111111111,
+      "edges": 23
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0761904761904762,
+      "defect": 0.6888888888888889,
+      "edges": 31
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.06666666666666667,
+      "defect": 0.35555555555555557,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.047619047619047616,
+      "defect": 0.3111111111111111,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.07142857142857142,
+      "defect": 0.6,
+      "edges": 36
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.004761904761904762,
+      "defect": 0.2,
+      "edges": 39
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.01904761904761905,
+      "defect": 0.13333333333333333,
+      "edges": 40
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.014285714285714285,
+      "defect": 0.4444444444444444,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.047619047619047616,
+      "defect": 0.3333333333333333,
+      "edges": 38
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.07142857142857142,
+      "defect": 0.8,
+      "edges": 36
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.047619047619047616,
+      "defect": 0.6222222222222222,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.04285714285714286,
+      "defect": 0.4666666666666667,
+      "edges": 38
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0380952380952381,
+      "defect": 0.044444444444444446,
+      "edges": 40
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.02857142857142857,
+      "defect": 0.08888888888888889,
+      "edges": 40
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.014285714285714285,
+      "defect": 0.4444444444444444,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.047619047619047616,
+      "defect": 0.5777777777777777,
+      "edges": 35
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.06666666666666667,
+      "defect": 0.6,
+      "edges": 36
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0380952380952381,
+      "defect": 0.5555555555555556,
+      "edges": 34
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0,
+      "defect": 0.24444444444444444,
+      "edges": 35
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.07142857142857142,
+      "defect": 0.13333333333333333,
+      "edges": 38
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0761904761904762,
+      "defect": 0.5777777777777777,
+      "edges": 35
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0761904761904762,
+      "defect": 0.8,
+      "edges": 36
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.13333333333333333,
+      "defect": 0.7333333333333333,
+      "edges": 33
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.08571428571428572,
+      "defect": 0.4666666666666667,
+      "edges": 30
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.03333333333333333,
+      "defect": 0.06666666666666667,
+      "edges": 40
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.02857142857142857,
+      "defect": 0.4222222222222222,
+      "edges": 36
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.08095238095238096,
+      "defect": 0.5777777777777777,
+      "edges": 35
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.03333333333333333,
+      "defect": 0.5777777777777777,
+      "edges": 35
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.05714285714285714,
+      "defect": 0.7333333333333333,
+      "edges": 33
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.05714285714285714,
+      "defect": 0.1111111111111111,
+      "edges": 38
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.0380952380952381,
+      "defect": 0.5555555555555556,
+      "edges": 34
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.03333333333333333,
+      "defect": 0.4444444444444444,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.1,
+      "defect": 0.7111111111111111,
+      "edges": 32
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.10476190476190476,
+      "defect": 0.7333333333333333,
+      "edges": 33
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.05238095238095238,
+      "defect": 0.6222222222222222,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.04285714285714286,
+      "defect": 0.5777777777777777,
+      "edges": 35
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.03333333333333333,
+      "defect": 0.17777777777777778,
+      "edges": 37
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.08571428571428572,
+      "defect": 0.7333333333333333,
+      "edges": 33
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.047619047619047616,
+      "defect": 0.7333333333333333,
+      "edges": 33
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.05714285714285714,
+      "defect": 0.6444444444444445,
+      "edges": 29
+    },
+    {
+      "edge_probability": 0.8,
+      "density": 0.05238095238095238,
+      "defect": 0.08888888888888889,
+      "edges": 39
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: Graph symmetrisation and inducibility
+message: If you use this computational companion, cite the paper it explores and this repository.
+type: software
+authors:
+  - name: graph-symmetrisation-inducibility contributors
+repository-code: https://github.com/Lucimad007/graph-symmetrisation-inducibility
+license: MIT
+preferred-citation:
+  type: article
+  title: Stability from graph symmetrisation arguments with applications to inducibility
+  authors:
+    - family-names: Liu
+      given-names: Hong
+    - family-names: Pikhurko
+      given-names: Oleg
+    - family-names: Sharifzadeh
+      given-names: Maryam
+    - family-names: Staden
+      given-names: Katherine
+  year: 2023
+  identifiers:
+    - type: other
+      value: arXiv:2012.10731
+      description: arXiv preprint
